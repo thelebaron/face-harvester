@@ -112,6 +112,7 @@ for file in FILES_GRABBED:
         #print(str(face_landmarks['left_eye',[1,3]]))
         z = [c[0] for c in face_landmarks['left_eye'] ]
         print("z " + str(z))
+        print("z first is "+ str(z[0]))
 
         #finally gets coordinates
         for a, b in face_landmarks['left_eye']:   # <-- this unpacks the tuple like a, b = (0, 1)
